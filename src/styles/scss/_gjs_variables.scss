@@ -19,10 +19,90 @@ $cui-cls:        $app-prefix + 'cui' !default;
   With this should be easier to overwrite colors
   not only in SCSS but even CSS
 */
+
+/* Default theme */
 $primaryColor:      #444 !default;
 $secondaryColor:    #ddd !default;
 $tertiaryColor:     #804f7b !default;
 $quaternaryColor:   #d278c9 !default;
+
+/* Fruit Cherry Theme */
+$primaryColorCH:    #5B1414 !default;
+$secondaryColorCH:  #E9D9D9 !default;
+$tertiaryColorCH:   #D15555 !default;
+$quaternaryColorCH: #FAC9C9 !default;
+$mainColorCH:       #5B1414 !default;
+$fontColorCH:       #E9D9D9 !default;
+$fontColorActiveCH: #FFFFFF !default;
+$mainDkColorCH:     rgba(0, 0, 0, 0.2) !default;
+$mainDklColorCH:    rgba(0, 0, 0, 0.1) !default;
+$mainLhColorCH:     rgba(255, 255, 255, 0.1) !default;
+$mainLhlColorCH:    rgba(255, 255, 255, 0.7) !default;
+
+/* Fruit Blueberry Theme */
+$primaryColorBB:    #102A52 !default;
+$secondaryColorBB:  #D3D3D3 !default;
+$tertiaryColorBB:   #7090B0 !default;
+$quaternaryColorBB: #B0C0D0 !default;
+$mainColorBB:       #102A52 !default;
+$fontColorBB:       #D3D3D3 !default;
+$fontColorActiveBB: #FFFFFF !default;
+$mainDkColorBB:     rgba(0, 0, 0, 0.2) !default;
+$mainDklColorBB:    rgba(0, 0, 0, 0.1) !default;
+$mainLhColorBB:     rgba(255, 255, 255, 0.1) !default;
+$mainLhlColorBB:    rgba(255, 255, 255, 0.7) !default;
+
+/* Fruit Banana Theme */
+$primaryColorBN:    #D0B457 !default;
+$secondaryColorBN:  #FFF8E1 !default;
+$tertiaryColorBN:   #8C660B !default;
+$quaternaryColorBN: #C6A34E !default;
+$mainColorBN:       #D0B457 !default;
+$fontColorBN:       #3B3B3B !default;
+$fontColorActiveBN: #FFFFFF !default;
+$mainDkColorBN:     rgba(0, 0, 0, 0.2) !default;
+$mainDklColorBN:    rgba(0, 0, 0, 0.1) !default;
+$mainLhColorBN:     rgba(255, 255, 255, 0.1) !default;
+$mainLhlColorBN:    rgba(255, 255, 255, 0.7) !default;
+
+/* Fruit Watermelon Theme */
+$primaryColorWM:    #3F8333 !default;
+$secondaryColorWM:  #F2D2D2 !default;
+$tertiaryColorWM:   #E65A5A !default;
+$quaternaryColorWM: #FAC9C9 !default;
+$mainColorWM:       #3F8333 !default;
+$fontColorWM:       #F2D2D2 !default;
+$fontColorActiveWM: #FFFFFF !default;
+$mainDkColorWM:     rgba(0, 0, 0, 0.2) !default;
+$mainDklColorWM:    rgba(0, 0, 0, 0.1) !default;
+$mainLhColorWM:     rgba(255, 255, 255, 0.1) !default;
+$mainLhlColorWM:    rgba(255, 255, 255, 0.7) !default;
+
+/* Fruit Lemon Theme */
+$primaryColorLN:    #E3D614 !default;
+$secondaryColorLN:  #F3EAA3 !default;
+$tertiaryColorLN:   #80A54F !default;
+$quaternaryColorLN: #C6D68E !default;
+$mainColorLN:       #E3D614 !default;
+$fontColorLN:       #3B3B3B !default;
+$fontColorActiveLN: #FFFFFF !default;
+$mainDkColorLN:     rgba(0, 0, 0, 0.2) !default;
+$mainDklColorLN:    rgba(0, 0, 0, 0.1) !default;
+$mainLhColorLN:     rgba(255, 255, 255, 0.1) !default;
+$mainLhlColorLN:    rgba(255, 255, 255, 0.7) !default;
+
+/* Fruit Orange Theme */
+$primaryColorOG:    #D45E0E !default;
+$secondaryColorOG:  #E3D0B6 !default;
+$tertiaryColorOG:   #3B3B3B !default;
+$quaternaryColorOG: #FFAE4A !default;
+$mainColorOG:       #D45E0E !default;
+$fontColorOG:       #E3D0B6 !default;
+$fontColorActiveOG: #FFFFFF !default;
+$mainDkColorOG:     rgba(0, 0, 0, 0.2) !default;
+$mainDklColorOG:    rgba(0, 0, 0, 0.1) !default;
+$mainLhColorOG:     rgba(255, 255, 255, 0.1) !default;
+$mainLhlColorOG:    rgba(255, 255, 255, 0.7) !default;
 
 /* Dark theme */
 $mainColor:         #444 !default; /* Light: #573454 Dark: #3b2639 -moz-linear-gradient(top, #fca99b 0%, #6e2842 100%) */
